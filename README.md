@@ -23,8 +23,7 @@ This is our anonymous implementation codes of *"Faster Video Moment Retrieval wi
 # Data Preparation  
 
 We employ the pre-trained I3D model to extract the Charades-STA features, while C3D models extract the ActivityNet-Caption and TACoS features.  
-Following the anonymity requirement, our feature files will be released through cloud storage after the paper is published.  
-Kindly, you can follow the previous counterpart methods which have been published to deploy the off-the-shelf features.  
+Following the anonymity requirement, our feature files will be released through cloud storage after the paper is published. Kindly, you can follow the previous counterpart methods which have been published to deploy the off-the-shelf features.  
 Please remember to pack them into hdf5 files and modify the feature path in the config files:  
 
 ```Json
@@ -72,7 +71,7 @@ The other config files and pre-trained models will be released with the feature 
 
 ## Comparisons on Model Efficiency
 
-![avatar](fig/efficiency.png
+![avatar](fig/efficiency.png)
 
 ## Visualization of Moment Retrieval Results and Time Consumption
 
